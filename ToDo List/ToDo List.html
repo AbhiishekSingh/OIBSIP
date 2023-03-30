@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="todo.css">
+</head>
+<body style=" background: linear-gradient(100deg,#2980b9, #6e23a0);">
+    <div class="main-container">
+             <div class="container">
+              <div class="Heading">
+                <h1>ToDo List</h1>
+             </div>
+            <div class="input">
+                <input type="text" class="form-control" placeholder="Write here..." aria-label="Write here..." id="Task">
+                <button class="btn1" type="button" id="Add">Add </button>
+            </div>
+
+            <div class="display">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th class="number" scope="col">Sr no.</th>
+                      <th class="details" scope="col">Tasks</th>
+                      <th class="act" scope="col">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id="records">
+                    <tr>
+                      <th scope="row">1</th> 
+                      <td>Practice atlest 5 questoin of DSA in a day</td>
+                      <td><i class="fa fa-edit"></i> <i class="btn btn-danger text-white fa fa-trash"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+    </div>
+    <script src="ToDo.js"></script>
+</body>
+</html>
