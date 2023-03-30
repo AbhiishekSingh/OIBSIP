@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(100deg,#4887b1, #301841);
+}
+.body h3{
+    text-align: center;
+    font-size: 50px;
+}
+.Container{
+    display: block;
+    float: center;
+    margin-left: 700px;
+    border: 1spx solid ;
+    margin-top: 150px;
+    width: 423px;
+    background-color: rgb(34, 32, 30);
+}
+.input-box input{
+    width: 398px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 50px;
+    box-shadow: 20;
+}
+input[type="Number"]::-webkit-inner-spin-button,
+-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+.Buttons-row{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    border-radius: 50px;
+    margin-right: 5px;
+    font-size: 45px;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(48, 45, 41);
+     border-color: rgb(34, 32, 30);
+}
+#operator{
+    color:rgb(13, 182, 27);
+    border-color: rgb(34, 32, 30);
+}
+#isequalto{
+    border-radius: 50px;
+    margin-right: 5px;
+    font-size: 60px;
+    border: 1px solid;
+    height: 50px;
+    width: 200px;
+    height: 90px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(13, 182, 27);
+    border-color: rgb(13, 182, 27);
+}
+#result{
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 5s0px;
+    border: 1px solid;
+    height: 50px;
+    width: 35px;
+    padding: 5px;
+    background-color: rgb(245, 209, 6);
+}
